@@ -1,0 +1,21 @@
+
+    <div class="panel panel-primary">
+      <div class="panel panel-heading">
+        <i class="fa fa-calendar fa-5x"></i>
+        <div class="panellabel">
+          <h3>Issues</h3>
+        </div>
+      </div>
+      <div class="panel panel-body">
+        <ul>
+          <li *ngFor="let issue of issues">
+            <h4>{{ issue }}</h4>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+<!--<h1>{{ issues.length }} Issues</h1>
+
+
+<button class="btn btn-primary">Save</button>-->
